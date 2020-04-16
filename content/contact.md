@@ -1,7 +1,7 @@
 ---
 title: Contact
 featured_image: ''
-description: I'd love to hear from you
+description: Contact me
 type: page
 
 ---
