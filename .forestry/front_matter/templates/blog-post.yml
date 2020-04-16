@@ -1,0 +1,25 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  name: author
+  label: author
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: slug
+  label: slug
+- type: text
+  name: featured_image
+  label: featured_image
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
+- type: list
+  name: aliases
+  label: aliases
