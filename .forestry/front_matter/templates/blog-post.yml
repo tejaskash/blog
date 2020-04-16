@@ -24,3 +24,5 @@ fields:
 - type: list
   name: aliases
   label: aliases
+pages:
+- content/post/2020/04/how-i-set-up-this-blog.md
