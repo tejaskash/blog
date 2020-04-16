@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "tejaskashinath.ml"
 title   = "Hello, World"
 
 DefaultContentLanguage = "en"
@@ -103,9 +103,6 @@ disqusShortname = "tejaskashinath"
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/tejas-kashinath"
-  [[params.social]]
-    name = "resume"
-    url  = "/docs/FinalCV.pdf"
 
 [languages]
   [languages.en]
