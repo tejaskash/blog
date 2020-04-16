@@ -1,0 +1,135 @@
+baseURL = "/"
+title   = "Hello, World"
+
+DefaultContentLanguage = "en"
+
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+disqusShortname = "tejaskashinath"
+[permalinks]
+  post = "/:year/:month/:filename/"
+
+[author]
+  name = "Tejas Kashinath"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 +0530"
+  comments = true
+
+  # Metadata mostly used in document's head
+  description = "I am a Student, and a budding Software Developer. I love working on small side projects involving API's,Flask,Machine Learning and Image Processing alongside my academic curriculum"
+  keywords = "programming, python, flask, web app,machine learning, keras ,image , processing"
+  images = ["/images/avatar.jpg"]
+
+  homeSubtitle = "I am a student, and love to work on creative, useful and impactful projects."
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = ["/css/cookieconsent.min.css"]
+  customJS  = ["/js/cookieconsent.min.js", "/js/site.js","/js/sitetitle.js"]
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false  # Set "text-align: justify" to .content.
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "post"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
+
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText     = "/home/tejas"
+    logoHomeLink = "/"
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoColor    = "#67a2c9"
+
+  # Social icons]
+  [[params.social]]
+    name = "email"
+    url  = "mailto:kashinath.tejas64@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/tejaskashinathofficial"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/tejas-kashinath"
+  [[params.social]]
+    name = "resume"
+    url  = "/docs/FinalCV.pdf"
+
+[languages]
+  [languages.en]
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "post/"
+  [[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "contact/"
+
+[caches]
+  [caches.getjson]
+  dir = ":resourceDir/_gen"
+  maxAge = -1
+  
+[markup.goldmark.renderer]
+unsafe= true
