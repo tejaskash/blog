@@ -3,7 +3,6 @@ title: Contact
 featured_image: ''
 description: Contact me
 type: page
-
 ---
 I am always available via <mark style="background:lightblue;">[Email](mailto:kashinath.tejas64@gmail.com "Email ID")</mark>.
 
