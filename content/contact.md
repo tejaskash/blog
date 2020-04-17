@@ -55,9 +55,10 @@ font-weight:700;
 \[type="submit"\]:hover { background:#0000FF; }
 </style>
 <form method="POST" action="https://getform.io/f/6473a848-ae1c-4c44-9a33-9fc396ad307a">  
-<input name="name" type="text" class="feedback-input" placeholder="Name" />  
-<input name="email" type="text" class="feedback-input" placeholder="Email" />
-<textarea name="message" class="feedback-input" placeholder="Message"></textarea>
+<input name="name" type="text" class="feedback-input" placeholder="Name" required/>  
+<input name="email" type="text" class="feedback-input" placeholder="Email" required/>
+<textarea name="message" class="feedback-input" placeholder="Message" required></textarea>
 <input type="submit" value="SUBMIT"/>
-<!--<div class="g-recaptcha" data-sitekey="6LcHGuoUAAAAAHWnp3D3Kp3BOluOwwDd912sYaBM"></div>-->
+<div class="g-recaptcha" data-sitekey="6LcHGuoUAAAAAHWnp3D3Kp3BOluOwwDd912sYaBM"></div>
 </form>
+<script src="https://www.google.com/recaptcha/api.js?render=6LcHGuoUAAAAAHWnp3D3Kp3BOluOwwDd912sYaBM"></script>
