@@ -59,6 +59,4 @@ font-weight:700;
 <input name="email" type="text" class="feedback-input" placeholder="Email" required/>
 <textarea name="message" class="feedback-input" placeholder="Message" required></textarea>
 <input type="submit" value="SUBMIT"/>
-<div class="g-recaptcha" data-sitekey="6LcHGuoUAAAAAHWnp3D3Kp3BOluOwwDd912sYaBM"></div>
 </form>
-<script src="https://www.google.com/recaptcha/api.js?render=6LcHGuoUAAAAAHWnp3D3Kp3BOluOwwDd912sYaBM"></script>
