@@ -3,13 +3,12 @@ author = "Tejas Kashinath"
 categories = ["Static Websites", "Hugo", "Web"]
 date = 2020-04-16T16:33:00Z
 description = "A fast and simple tutorial on getting started with hugo"
-draft = true
+draft = false
 featured = "/img/2020/04/hugo_logo.svg"
 featured_image = "/img/2020/04/hugo_logo.svg"
 slug = "first-blog-with-hugo"
 tags = ["Hugo", "Web", "Static", "Blog", "Setup"]
 title = "Creating Your First Blog With Hugo"
-
 +++
 ![Hugo Logo](/img/2020/04/hugo_logo.svg)
 <center><em><a href="https://gohugo.io/">(Image Source)</a></em></center>
@@ -45,7 +44,7 @@ hugo new site mysite
 
 It is recommended to run the command in a separate empty directory in your home directory because the command will create a new folder called mysite. 
 
-![Hugo New Site Screenshot](/img/2020/04/hugo__screen1.jpg)
+![Hugo New Site Screenshot](/img/2020/04/hugo_screen1.jpg)
 
 #### Applying a theme
 
