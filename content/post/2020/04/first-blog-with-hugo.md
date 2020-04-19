@@ -123,3 +123,12 @@ Hugo is simple to use, easy and no-fuss, and does not require extensive knowledg
 And that's it !!!!.  In the next post, I'll cover hosting and adding a CMS (Content Management System). 
 
  If you have any questions or suggestions on how i can improve, please do [contact me](/contact).
+
+#### Resources
+[1] https://themes.gohugo.io/hugo-theme-hello-friend-ng/
+
+[2] https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/
+
+[3] https://gohugo.io/documentation/
+
+[4] https://github.com/preslavrachev/myblog-hugo
