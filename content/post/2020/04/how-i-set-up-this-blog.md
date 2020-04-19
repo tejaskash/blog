@@ -1,11 +1,14 @@
 +++
 aliases = []
 author = "Tejas Kashinath"
+categories = ["Static Websites", "Hugo", "Web"]
 date = 2020-04-16T16:33:00Z
+description = "A fast and simple tutorial on getting started with hugo"
+featured = "/img/2020/04/hugo_logo.svg"
 featured_image = "/img/2020/04/hugo_logo.svg"
 slug = "how-i-set-up-this-blog-part1"
-title = "Creating Your First Blog With Huho"
-type = ""
+tags = ["Hugo", "Web", "Static", "Blog", "Setup", "Install-Guide"]
+title = "Creating Your First Blog With Hugo"
 
 +++
 ![Hugo Logo](/img/2020/04/hugo_logo.svg)
