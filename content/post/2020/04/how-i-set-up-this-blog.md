@@ -4,7 +4,9 @@ author = "Tejas Kashinath"
 date = 2020-04-16T16:33:00Z
 featured_image = "/img/2020/04/hugo_logo.svg"
 slug = "how-i-set-up-this-blog-part1"
-title = "How I Set Up This Blog: Part 1"
+title = "Creating Your First Blog With Huho"
+type = ""
+
 +++
 ![Hugo Logo](/img/2020/04/hugo_logo.svg)
 <center><em><a href="https://gohugo.io/">(Image Source)</a></em></center>
@@ -48,6 +50,3 @@ hugo
 Your site should be available in the ```mysite/public``` folder. To preview the website, you can open up the ```index.html``` file in a browser. 
 
 And thats it !!!!. In the next post, I'll cover hosting and adding a CMS. If you have any questions or suggestions on how i can improve, please do [contact me](/contact).
-
-
-
