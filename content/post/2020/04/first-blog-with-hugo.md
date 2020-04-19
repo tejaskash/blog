@@ -1,5 +1,4 @@
 +++
-aliases = []
 author = "Tejas Kashinath"
 categories = ["Static Websites", "Hugo", "Web"]
 date = 2020-04-16T16:33:00Z
@@ -10,7 +9,6 @@ featured_image = "/img/2020/04/hugo_logo.svg"
 slug = "first-blog-with-hugo"
 tags = ["Hugo", "Web", "Static", "Blog", "Setup"]
 title = "Creating Your First Blog With Hugo"
-
 +++
 ![Hugo Logo](/img/2020/04/hugo_logo.svg)
 <center><em><a href="https://gohugo.io/">(Image Source)</a></em></center>
