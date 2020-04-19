@@ -3,6 +3,7 @@ author = "Tejas Kashinath"
 categories = ["Static Websites", "Hugo", "Web"]
 date = 2020-04-16T16:33:00Z
 description = "A fast and simple tutorial on getting started with hugo"
+draft = true
 featured = "/img/2020/04/hugo_logo.svg"
 featured_image = "/img/2020/04/hugo_logo.svg"
 slug = "first-blog-with-hugo"
