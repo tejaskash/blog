@@ -24,5 +24,26 @@ fields:
 - type: list
   name: aliases
   label: aliases
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
+- name: featured
+  type: text
+  config:
+    required: false
+  label: featured
+- name: categories
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: categories
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
 pages:
 - content/post/2020/04/how-i-set-up-this-blog.md
