@@ -31,8 +31,10 @@ The extended channel enables support for SCSS which was a requirement of the tem
 
 Test your hugo installation. If your output is similar to the one below, you are good to go!!!. 
 
-    $ hugo version
-    Hugo Static Site Generator v0.69.0/extended linux/amd64 BuildDate: 2020-04-10T12:13:21Z
+```bash
+$ hugo version
+Hugo Static Site Generator v0.69.0/extended linux/amd64 BuildDate: 2020-04-10T12:13:21Z    
+```
 
 #### Creating a Hugo Site
 
@@ -44,25 +46,25 @@ hugo new site mysite
 
 It is recommended to run the command in a separate empty directory in your home directory because the command will create a new folder called mysite. 
 
-!\[Hugo New Site Screenshot\](/img/2020/04/hugo__screen1.jpg_)
+![Hugo New Site Screenshot](/img/2020/04/hugo__screen1.jpg)
 
 #### Applying a theme
 
 Hugo does not ship with a default theme out of the box, so you'll need a theme. You can browse some awesome hugo themes [here](https://themes.gohugo.io "Hugo Themes"). I liked [this](https://themes.gohugo.io/hugo-theme-hello-friend-ng/ "hello-friend-ng") theme the best even though it was a little complicated to set up in the beginning, given that I had never worked with Hugo or Go templates before. 
 
-Hugo themes must be copied to the \`\`\`mysite/themes\`\`\` directory. I chose to directly clone the repository for my template. 
+Hugo themes must be copied to the ```mysite/themes``` directory. I chose to directly clone the repository for my template. 
 
 ```bash
 git clone https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
 ```
 
-Now, take a look within the folder for your theme. All themes come with an \`\`\`exampleSite\`\`\` directory that contains the bare minimum needed to build the website. The files you'll need from this directory are the \`\`\`config.toml\`\`\` and the files within the content directory. Do note that Hugo also supports configuration files in JSON and YAML format, so you might have to adapt accordingly.
+Now, take a look within the folder for your theme. All themes come with an ```exampleSite``` directory that contains the bare minimum needed to build the website. The files you'll need from this directory are the ```config.toml``` and the files within the content directory. Do note that Hugo also supports configuration files in JSON and YAML format, so you might have to adapt accordingly.
 
-!\[Hugo Directory Structure\](/img/2020/04/hugo_directory.jpg)
+![Hugo Directory Structure](/img/2020/04/hugo_directory.jpg)
 
-The config file basically tells Hugo what content goes where, what extras to include etc. Copy the config file from within the \`\`\`exampleSite\`\`\` directory and paste it to the \`\`\`mysite\`\`\` directory. Here is a look at my configuration file.
+The config file basically tells Hugo what content goes where, what extras to include etc. Copy the config file from within the ```exampleSite``` directory and paste it to the ```mysite``` directory. Here is a look at my configuration file.
 
-```bash
+```toml
 baseURL = "https://tejaskashinath.ml"
 title   = "Hello, World"
 
@@ -98,7 +100,7 @@ enableEmoji     = true
   ...
 ```
 
-Now, copy the contents of \`\`\`exampleSite/content\`\`\` to \`\`\`mysite/content\`\`\`.  Now run
+Now, copy the contents of ```exampleSite/content``` to ```mysite/content```.  Now run
 
 ```bash
 hugo serve
