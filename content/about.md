@@ -25,7 +25,7 @@ aliases = ["/about-me"]
 I am a final year student at Manipal Institute Of Technology. My major is in
 Information and Communication Technology with a minor in Artificial Intelligence.
 I am currently scheduled to be a SDE Intern at Amazon, India in January 2021. I love working
-on Web Applications, API's, and machine learning projects. You can view my  <mark style="background:lightblue;"> [resumé here](/docs/FinalCV.pdf).</mark><br/>
+on Web Applications, API's, and machine learning projects. You can view my  <mark style="background:lightblue;"> [resumé here](/docs/MyCV.pdf).</mark><br/>
 
 I am an avid reader. I love going on walks, listening to music, and learning European languages.
 

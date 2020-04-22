@@ -1,1 +1,0 @@
-<script src="https://www.google.com/recaptcha/api.js?render=6LcHGuoUAAAAAHWnp3D3Kp3BOluOwwDd912sYaBM"></script>

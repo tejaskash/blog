@@ -13,7 +13,7 @@ I am also on <mark style="background:lightblue;">[GitHub](https://github.com/tej
 form { max-width:420px; margin:50px auto; }
 
 .feedback-input {
-color:white;
+    color:#A9A9B3;
 font-family: Helvetica, Arial, sans-serif;
 font-weight:500;
 font-size: 18px;
@@ -43,8 +43,8 @@ width: 100%;
 background:#adbfff;
 border-radius:5px;
 border:0;
+color:#A9A9B3
 cursor:pointer;
-color:white;
 font-size:24px;
 padding-top:10px;
 padding-bottom:10px;
@@ -54,9 +54,9 @@ font-weight:700;
 }
 \[type="submit"\]:hover { background:#0000FF; }
 </style>
-<form method="POST" action="https://getform.io/f/6473a848-ae1c-4c44-9a33-9fc396ad307a">  
+<form method="POST" action="https://getform.io/f/6473a848-ae1c-4c44-9a33-9fc396ad307a" class="dark-theme">  
 <input name="name" type="text" class="feedback-input" placeholder="Name" required/>  
 <input name="email" type="text" class="feedback-input" placeholder="Email" required/>
 <textarea name="message" class="feedback-input" placeholder="Message" required></textarea>
-<input type="submit" value="SUBMIT"/>
+<button type="submit" style="text-align:center;">Submit</button>
 </form>
