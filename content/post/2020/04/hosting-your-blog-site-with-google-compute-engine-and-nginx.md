@@ -11,7 +11,7 @@ tags = ["Hosting", "Cloud", "Google", "NGINX"]
 title = "Hosting a static website on Google Cloud Platform"
 
 +++
-![GCP Logo](/img/2020/04/google_logo.svg)
+![GCP Logo](/img/2020/04/cloud_logo.svg)
 
 <center><a href="[https://upload.wikimedia.org/wikipedia/commons/d/d8/Google-Compute-Engine-Logo.svg](https://upload.wikimedia.org/wikipedia/commons/d/d8/Google-Compute-Engine-Logo.svg "https://upload.wikimedia.org/wikipedia/commons/d/d8/Google-Compute-Engine-Logo.svg")"><em>(Image Source)</em></a></center>
 
