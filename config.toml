@@ -112,15 +112,15 @@ disqusShortname = "tejaskashinath"
 [menu]
   [[menu.main]]
     identifier = "about"
-    name       = "About"
+    name       = "/about"
     url        = "about/"
   [[menu.main]]
     identifier = "blog"
-    name       = "Blog"
+    name       = "/blog"
     url        = "post/"
   [[menu.main]]
     identifier = "contact"
-    name       = "Contact"
+    name       = "/contact"
     url        = "contact/"
 
 [caches]

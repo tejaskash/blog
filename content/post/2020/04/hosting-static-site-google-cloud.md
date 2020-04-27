@@ -8,13 +8,13 @@ featured = "/img/2020/04/google_logo.svg"
 featured_image = "/img/2020/04/google_logo.svg"
 slug = "hosting-static-site-gcloud"
 tags = ["Hosting", "Cloud", "Google", "NGINX"]
-title = "Hosting a static website on Google Cloud Platform"
+title = "Hosting A Static Website On Google Cloud Platform"
 type = ""
 
 +++
 ![GCP Logo](/img/2020/04/cloud_logo.svg)
 
-<center><a href="[https://commons.wikimedia.org/wiki/File:Google-Compute-Engine-Logo.svg](https://commons.wikimedia.org/wiki/File:Google-Compute-Engine-Logo.svg "https://commons.wikimedia.org/wiki/File:Google-Compute-Engine-Logo.svg")"><em>(Image Source)</em></a></center>
+<center><a href="https://commons.wikimedia.org/wiki/File:Google-Compute-Engine-Logo.svg"><em>(Image Source)</em></a></center>
 
 The next step after setting up your blog or website is making it available for the world to see. There are several hosting services such as such as [Netlify](https://www.netlify.com/), [ZEIT](https://vercel.com/) and [GitHub Pages](https://pages.github.com/) that are free and provide support for a wide range of Content Management Systems and static site generators and are easily integrable with git. These services are incredibly easy to setup and will have you up and running in no time.
 
