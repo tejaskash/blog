@@ -15,7 +15,7 @@
         ga('send', 'pageview');
     </script>
 {{- end}}
-
+<script type="text/javascript" src="https://analytics.tejaskashinath.ml/static/analytics/tag.min.js"></script>
 {{ range $val := $.Site.Params.customJS }}
 	{{ if gt (len $val) 0 }}
 		<script src="{{ $val }}"></script>

@@ -44,7 +44,7 @@ hugo new site mysite
 
 It is recommended to run the command in a separate empty directory in your home directory because the command will create a new folder called mysite. 
 
-![Hugo New Site Screenshot](/img/2020/04/hugo_screen1.jpg)
+![Hugo New Site Screenshot](/img/2020/04/hugo_screen1.webp)
 
 #### Applying a theme
 
@@ -58,7 +58,7 @@ git clone https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello
 
 Now, take a look within the folder for your theme. All themes come with an ```exampleSite``` directory that contains the bare minimum needed to build the website. The files you'll need from this directory are the ```config.toml``` and the files within the content directory. Do note that Hugo also supports configuration files in JSON and YAML format, so you might have to adapt accordingly.
 
-<center><img src="/img/2020/04/hugo_directory.jpg" alt="Hugo Directory Structure"/></center>
+<center><img src="/img/2020/04/hugo_directory.webp" alt="Hugo Directory Structure"/></center>
 
 The config file basically tells Hugo what content goes where, what extras to include etc. Copy the config file from within the ```exampleSite``` directory and paste it to the ```mysite``` directory. Here is a look at my configuration file.
 
